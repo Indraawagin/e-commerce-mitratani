@@ -27,6 +27,7 @@
                 <div class="row">
                     @php
                         $incrementCategory = 0;
+                        $incrementProduct = 0;
                     @endphp
                     @forelse ($categories as $category)
                         <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up"
