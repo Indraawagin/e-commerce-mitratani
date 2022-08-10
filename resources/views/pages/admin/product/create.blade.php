@@ -43,7 +43,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label for="">Berat Produk</label>
-                                            <input type="text" name="weight" value="{{ old('weight') }}"
+                                            <input type="number" name="weight" value="{{ old('weight') }}"
                                                 class="form-control" required>
                                         </div>
                                     </div>

@@ -29,7 +29,7 @@ class ProductRequest extends FormRequest
             'description' => 'required',
             'categories_id' => 'required|exists:categories,id',
             'stock' => 'required|integer',
-            'weight' => 'required|float',
+            'weight' => 'required|numeric',
         ];
     }
 }
